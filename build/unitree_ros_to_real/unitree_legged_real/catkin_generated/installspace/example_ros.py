@@ -3,7 +3,7 @@ import rospy
 import sys
 from unitree_legged_msgs.msg import HighCmd
 from unitree_legged_msgs.msg import HighState
-from std_msgs.msg import Empty
+import std_msgs.msg
 from time import sleep
 
 sys.path.append('../lib/python/amd64')
