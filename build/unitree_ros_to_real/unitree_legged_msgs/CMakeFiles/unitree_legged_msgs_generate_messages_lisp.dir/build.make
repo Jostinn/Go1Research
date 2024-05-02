@@ -110,26 +110,26 @@ unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/unitree_legged_msgs_generate_
 
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/LowState.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/LowState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/LowState.msg
+/home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/LowState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/BmsState.msg
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/LowState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/Cartesian.msg
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/LowState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/IMU.msg
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/LowState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/MotorState.msg
-/home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/LowState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/BmsState.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jkauff/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating Lisp code from unitree_legged_msgs/LowState.msg"
 	cd /home/jkauff/catkin_ws/build/unitree_ros_to_real/unitree_legged_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/LowState.msg -Iunitree_legged_msgs:/home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -p unitree_legged_msgs -o /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg
 
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighCmd.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighCmd.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/HighCmd.msg
-/home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighCmd.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/BmsCmd.msg
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighCmd.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/LED.msg
+/home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighCmd.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/BmsCmd.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jkauff/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating Lisp code from unitree_legged_msgs/HighCmd.msg"
 	cd /home/jkauff/catkin_ws/build/unitree_ros_to_real/unitree_legged_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/HighCmd.msg -Iunitree_legged_msgs:/home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -p unitree_legged_msgs -o /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg
 
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighState.lisp: /opt/ros/noetic/lib/genlisp/gen_lisp.py
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/HighState.msg
+/home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/BmsState.msg
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/Cartesian.msg
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/IMU.msg
 /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/MotorState.msg
-/home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg/HighState.lisp: /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/BmsState.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jkauff/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating Lisp code from unitree_legged_msgs/HighState.msg"
 	cd /home/jkauff/catkin_ws/build/unitree_ros_to_real/unitree_legged_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/HighState.msg -Iunitree_legged_msgs:/home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -p unitree_legged_msgs -o /home/jkauff/catkin_ws/devel/share/common-lisp/ros/unitree_legged_msgs/msg
 

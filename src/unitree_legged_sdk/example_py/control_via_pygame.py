@@ -57,11 +57,11 @@ if __name__ == '__main__':
         if keys[pygame.K_w]:
             cmd.mode = 2
             cmd.gaitType = 1
-            cmd.velocity = [0.5, 0]
+            cmd.velocity = [.5, 0]
         elif keys[pygame.K_s]:
             cmd.mode = 2
             cmd.gaitType = 1
-            cmd.velocity = [-0.5, 0]
+            cmd.velocity = [-.5, 0]
         elif keys[pygame.K_a]:
             cmd.mode = 2
             cmd.gaitType = 1
@@ -78,6 +78,8 @@ if __name__ == '__main__':
             cmd.mode = 2
             cmd.gaitType = 1
             cmd.yawSpeed = -2
+        elif keys[pygame.K_b]:
+            cmd.mode = 12
 
         udp.SetSend(cmd)
         udp.Send()

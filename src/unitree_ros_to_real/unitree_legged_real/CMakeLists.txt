@@ -5,6 +5,7 @@ set(CMAKE_CXX_FLAGS "-O3 -fPIC -std=c++11")
 
 find_package(catkin REQUIRED COMPONENTS
     roscpp
+    rospy
     geometry_msgs
     unitree_legged_msgs
     unitree_legged_sdk
@@ -25,6 +26,10 @@ include_directories(
     include
     ${catkin_INCLUDE_DIRS}
     ${unitree_legged_sdk_INCLUDE_DIRS}
+)
+
+catkin_install_python(PROGRAMS src/exe/example_ros.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
 add_executable(ros_example_walk src/exe/example_walk.cpp)

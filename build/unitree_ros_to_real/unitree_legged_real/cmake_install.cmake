@@ -52,3 +52,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_real" TYPE FILE FILES "/home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_real/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree_legged_real" TYPE PROGRAM FILES "/home/jkauff/catkin_ws/build/unitree_ros_to_real/unitree_legged_real/catkin_generated/installspace/example_ros.py")
+endif()
+

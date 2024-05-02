@@ -63,9 +63,9 @@ if __name__ == '__main__':
             cmd.gaitType = 1
             cmd.velocity = [.5,0]
         if (motiontime > 3000 and motiontime < 3500):
-            cmd.mode = 1
+            cmd.mode = 9
             cmd.yawSpeed = 1
-            cmd.velocity = [0,0,.5] # trying to make it rotate but wont work rn
+
 
 
 
