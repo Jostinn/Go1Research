@@ -6,7 +6,7 @@ from unitree_legged_msgs.msg import HighState
 import std_msgs.msg
 from time import sleep
 
-sys.path.append('../lib/python/amd64')
+#sys.path.append('../lib/python/amd64')
 #import robot_interface as sdk
 
 def main():
@@ -27,7 +27,7 @@ def main():
 
         high_cmd_ros = HighCmd()
         high_cmd_ros.head = [0xFE, 0xEF]
-        high_cmd_ros.levelFlag = 0x00
+        high_cmd_ros.levelFlag = 0xee
         high_cmd_ros.mode = 0
         high_cmd_ros.gaitType = 0
         high_cmd_ros.speedLevel = 0
