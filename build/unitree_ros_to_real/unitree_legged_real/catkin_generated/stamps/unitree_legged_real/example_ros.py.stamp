@@ -36,9 +36,6 @@ def main():
             if event.type == pygame.QUIT:
                 done = True
 
-    while not rospy.is_shutdown():
-        motiontime += 2
-
         high_cmd_ros = HighCmd()
         high_cmd_ros.head = [0xFE, 0xEF]
         high_cmd_ros.levelFlag = 0xee
