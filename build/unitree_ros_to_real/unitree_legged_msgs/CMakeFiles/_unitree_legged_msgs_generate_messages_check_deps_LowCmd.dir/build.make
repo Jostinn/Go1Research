@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/jkauff/catkin_ws/build
 include unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_LowCmd.dir/progress.make
 
 unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_LowCmd:
-	cd /home/jkauff/catkin_ws/build/unitree_ros_to_real/unitree_legged_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py unitree_legged_msgs /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/LowCmd.msg unitree_legged_msgs/MotorCmd:unitree_legged_msgs/BmsCmd
+	cd /home/jkauff/catkin_ws/build/unitree_ros_to_real/unitree_legged_msgs && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py unitree_legged_msgs /home/jkauff/catkin_ws/src/unitree_ros_to_real/unitree_legged_msgs/msg/LowCmd.msg unitree_legged_msgs/BmsCmd:unitree_legged_msgs/MotorCmd
 
 _unitree_legged_msgs_generate_messages_check_deps_LowCmd: unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_LowCmd
 _unitree_legged_msgs_generate_messages_check_deps_LowCmd: unitree_ros_to_real/unitree_legged_msgs/CMakeFiles/_unitree_legged_msgs_generate_messages_check_deps_LowCmd.dir/build.make

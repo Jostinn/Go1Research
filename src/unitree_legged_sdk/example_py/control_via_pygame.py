@@ -80,6 +80,8 @@ if __name__ == '__main__':
             cmd.yawSpeed = -2
         elif keys[pygame.K_b]:
             cmd.mode = 12
+        elif keys[pygame.K_o]:
+            cmd.mode = 9
 
         udp.SetSend(cmd)
         udp.Send()
