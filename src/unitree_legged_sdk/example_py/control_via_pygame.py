@@ -45,11 +45,11 @@ if __name__ == '__main__':
         cmd.mode = 0  # 0:idle, default stand      1:forced stand     2:walk continuously
         cmd.gaitType = 0
         cmd.speedLevel = 0
-        cmd.footRaiseHeight = 0
+        cmd.footRaiseHeight = -0.04  # Keefe: (-) is lower (+) is higher | change in small increments (0.01)
         cmd.bodyHeight = 0
         cmd.euler = [0, 0, 0]
-        cmd.velocity = [0, 0]
-        cmd.yawSpeed = 0.0
+        cmd.velocity = [0, 0]  # Keefe: x is forward / back and y is side | DO NOT CHANGE HERE
+        cmd.yawSpeed = 0.0  # Keefe: way it rotates (+) CCW (-) CW | DO NOT CHANGE HERE
         cmd.reserve = 0
 
         keys = pygame.key.get_pressed()
@@ -57,11 +57,11 @@ if __name__ == '__main__':
         if keys[pygame.K_w]:
             cmd.mode = 2
             cmd.gaitType = 1
-            cmd.velocity = [.5, 0]
+            cmd.velocity = [.3, 0]  # Keefe: usually 0.6 - slowed down to see step height
         elif keys[pygame.K_s]:
             cmd.mode = 2
             cmd.gaitType = 1
-            cmd.velocity = [-.5, 0]
+            cmd.velocity = [-.3, 0] # Keefe: usually -0.6 - slowed down to see step height
         elif keys[pygame.K_a]:
             cmd.mode = 2
             cmd.gaitType = 1
@@ -73,15 +73,17 @@ if __name__ == '__main__':
         elif keys[pygame.K_q]:
             cmd.mode = 2
             cmd.gaitType = 1
-            cmd.yawSpeed = 2
+            cmd.yawSpeed = 1
         elif keys[pygame.K_e]:
             cmd.mode = 2
             cmd.gaitType = 1
-            cmd.yawSpeed = -2
+            cmd.yawSpeed = -1
         elif keys[pygame.K_b]:
             cmd.mode = 12
         elif keys[pygame.K_o]:
             cmd.mode = 9
+        elif keys[pygame.K_SPACE]:
+            cmd.mode = 1
 
         udp.SetSend(cmd)
         udp.Send()
