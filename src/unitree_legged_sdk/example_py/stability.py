@@ -3,6 +3,7 @@
 import sys
 import time
 import math
+import keyboard
 
 sys.path.append('../lib/python/amd64')
 import robot_interface as sdk
@@ -19,6 +20,7 @@ if __name__ == '__main__':
     udp.InitCmdData(cmd)
 
     motiontime = 0
+
     while True:
         time.sleep(0.002)
         motiontime = motiontime + 1
@@ -49,19 +51,19 @@ if __name__ == '__main__':
         # cmd.yawSpeed = 0
         # cmd.bodyHeight = 0.1
 
-        if (motiontime > 0 and motiontime < 2000):
+        if (motiontime > 0 and motiontime < 1500):
             cmd.mode = 2
             cmd.gaitType = 1
             cmd.velocity = [.3,0]
-        if (motiontime > 3000 and motiontime < 5000):
+        if (motiontime > 2500 and motiontime < 4000):
             cmd.mode = 2
             cmd.gaitType = 1
             cmd.velocity = [-.3, 0]
-        if (motiontime > 6000 and motiontime < 8000):
+        if (motiontime > 5500 and motiontime < 7500):
             cmd.mode = 2
             cmd.gaitType = 1
             cmd.yawSpeed = 1
-        if (motiontime > 9000 and motiontime < 11000):
+        if (motiontime > 8500 and motiontime < 10500):
             cmd.mode = 2
             cmd.gaitType = 1
             cmd.yawSpeed = -1
